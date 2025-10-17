@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafeteria do Bairro</title>
+
+  <!-- Framework Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Estilos adicionais -->
+  <style>
+    :root {
+      --cor-principal: #6f4e37;
+      --cor-secundaria: #f9f5f0;
+    }
+
+    body {
+      background-color: var(--cor-secundaria);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+    }
+
+    header {
+      background-color: var(--cor-principal);
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    main {
+      text-align: center;
+      padding: 40px 15px;
+    }
+
+    .descricao {
+      max-width: 600px;
+      margin: 0 auto 30px;
+    }
+
+    .imagem img {
+      width: 100%;
+      max-width: 350px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn-pedido {
+      background-color: var(--cor-principal);
+      color: #fff;
+      border: none;
+      border-radius: 25px;
+      padding: 12px 30px;
+      font-size: 1.1rem;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .btn-pedido:hover {
+      background-color: #8b5e3c;
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: var(--cor-principal);
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Cabeçalho -->
+  <header role="banner">
+    <h1 tabindex="0">Cafeteria do Bairro</h1>
+    <p class="visually-hidden">Página inicial da Cafeteria do Bairro</p>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main role="main" class="container">
+    <section class="descricao">
+      <h2 tabindex="0">Bem-vindo à Cafeteria do Bairro</h2>
+      <p tabindex="0">
+        Servimos o melhor café artesanal da cidade, preparado com grãos selecionados e um toque especial de carinho.  
+        Venha saborear nossas bebidas e doces em um ambiente acolhedor.
+      </p>
+    </section>
+
+    <figure class="imagem">
+      <img src="https://cdn.pixabay.com/photo/2017/08/06/00/45/coffee-2589750_1280.jpg"
+           alt="Xícara de café quente sobre uma mesa de madeira">
+      <figcaption class="visually-hidden">Imagem ilustrativa de uma xícara de café.</figcaption>
+    </figure>
+
+    <a href="#" class="btn btn-pedido" aria-label="Fazer um pedido de café">Fazer Pedido</a>
+  </main>
+
+  <!-- Rodapé -->
+  <footer role="contentinfo">
+    <p>&copy; 2025 Cafeteria do Bairro — Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Script Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
